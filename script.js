@@ -31,8 +31,8 @@ if (holeCount == 3 && totalScore < parThree) {
     console.log(`Nice try, ${myName}! Your total par was: +${totalScore}`)
 } else if (holeCount == 3 && totalScore == parThree) {
     alert(`Great job, ${myName}! Your total par was: 0`)
-    console.log(`Nice try, ${myName}! Your total par was: 0`)
+    console.log(`Great job, ${myName}! Your total par was: 0`)
 } else if (holeCount == 6 && totalScore == parSix) {
     alert(`Great job, ${myName}! Your total par was: 0`)
-    console.log(`Nice try, ${myName}! Your total par was: 0`)
+    console.log(`Great job, ${myName}! Your total par was: 0`)
 }
