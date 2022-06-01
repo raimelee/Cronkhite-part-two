@@ -1,23 +1,3 @@
-/*
-
-1: PROMPT user for name, store in variable
-2: PTOMPT: 3 holes or 6, store in variable
-
-If 3 then 3 PROMPTS, if 6 then 6 PROMPTS
-3: LOOP: holeCount (3 or 6)
-    ask for score
-    add that to total
-    
-
-4: Print total
-5: If (total <= )
-    print AAA
-else
-    print BBB
-
-
-*/
-
 document.write(`Mini Golf`);
 console.log(`Mini Golf`);
 console.warn(`Winner Takes All!`);
