@@ -17,16 +17,22 @@ for (let i = 0; i < holeCount; i++) {
     totalScore += putts;
 }
 
-if (holeCount == 3 && totalScore <= parThree) {
-    alert(`Great job, ${myName}! Your total par was: ${totalScore}`)
-    console.log(`Great job, ${myName}! Your total par was: ${totalScore}`)
+if (holeCount == 3 && totalScore < parThree) {
+    alert(`Great job, ${myName}! Your total par was: -${totalScore}`)
+    console.log(`Great job, ${myName}! Your total par was: -${totalScore}`)
 } else if (holeCount == 3 && totalScore > parThree) {
-    alert(`Nice try, ${myName}! Your total par was: ${totalScore}`)
-    console.log(`Nice try, ${myName}! Your total par was: ${totalScore}`)
-} else if (holeCount == 6 && totalScore <= parSix) {
-    alert(`Great job, ${myName}! Your total par was: ${totalScore}`)
-    console.log(`Great job, ${myName}! Your total par was: ${totalScore}`)
+    alert(`Nice try, ${myName}! Your total par was: +${totalScore}`)
+    console.log(`Nice try, ${myName}! Your total par was: +${totalScore}`)
+} else if (holeCount == 6 && totalScore < parSix) {
+    alert(`Great job, ${myName}! Your total par was: -${totalScore}`)
+    console.log(`Great job, ${myName}! Your total par was: -${totalScore}`)
 } else if (holeCount == 6 && totalScore > parSix) {
-    alert(`Nice try, ${myName}! Your total par was: ${totalScore}`)
-    console.log(`Nice try, ${myName}! Your total par was: ${totalScore}`)
+    alert(`Nice try, ${myName}! Your total par was: +${totalScore}`)
+    console.log(`Nice try, ${myName}! Your total par was: +${totalScore}`)
+} else if (holeCount == 3 && totalScore == parThree) {
+    alert(`Great job, ${myName}! Your total par was: 0`)
+    console.log(`Nice try, ${myName}! Your total par was: 0`)
+} else if (holeCount == 6 && totalScore == parSix) {
+    alert(`Great job, ${myName}! Your total par was: 0`)
+    console.log(`Nice try, ${myName}! Your total par was: 0`)
 }
